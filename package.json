@@ -1,0 +1,20 @@
+{
+  "name": "cypresstasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "cypress run --headless -b chrome",
+    "cy:open": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.5.0",
+    "node-xlsx": "^0.16.1"
+  },
+  "dependencies": {
+    "cypress-downloadfile": "^1.2.0"
+  }
+}
