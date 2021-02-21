@@ -1,4 +1,4 @@
-describe('first drop-down menu', function () {
+describe('third drop-down menu', function () {
 
     it('verify Table Pagination', function () {
         cy.visit('table-pagination-demo.html');
