@@ -1,6 +1,6 @@
 describe('second drop-down menu', function () {
 
-    it('verify Table Pagination submenu', function () {
+    it('verify Bootstrap Date Picker page', function () {
         cy.visit('bootstrap-date-picker-demo.html');
         cy.get('[placeholder="dd/mm/yyyy"]').click();
         cy.get('.day').contains('25').click();
@@ -10,7 +10,7 @@ describe('second drop-down menu', function () {
         cy.get('.day').contains('25').click();
     });
 
-    it('verify Table Data Search submenu', function () {
+    it('verify JQuery Date Picker page', function () {
         cy.visit('jquery-date-picker-demo.html');
         cy.get('#from').click();
         cy.get('.ui-state-default').contains('11').click();
